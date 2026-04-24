@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | My Project</title>
+    <style>
+
+body {
+    cursor: url('https://cur.cursors-4u.net/anime/ani-10/ani968.png'), auto;
+}
+        
+        body {
+            font-family: https://www.dafont.com/le-cercle-des-artisans.font, sans-serif;
+            background-image: url(https://i.pinimg.com/736x/5a/9e/9a/5a9e9a0ea7c6e7edca45f45019222e39.jpg);
+            margin: 0;
+        }
+
+        header {
+            background-image: url(https://i.pinimg.com/736x/e8/5b/53/e85b538975cbd35228883bb6f2b16f14.jpg);
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+            header h1 {
+    text-shadow: 0 0 10px hotpink,
+                 0 0 20px hotpink,
+                 0 0 30px hotpink;
+}
+
+header p {
+    text-shadow: 0 0 5px hotpink;
+}
+            
+        nav {
+            background-color: #FFA6A6;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+            nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff69b4;
+    text-shadow: 0 0 5px white;
+}
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .container h2 {
+            color: #FFB2B2;
+            text-align: center;
+        }
+
+        .container p {
+            text-align: center;
+        }
+
+        /* GRID PROJECT (ALA GAME) */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .project-card {
+            background-color: pink;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .project-card a {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: pink;
+            background-color: #ffffff;
+        }
+
+        .project-card a:hover {
+            background-color: #FFB2B2;
+            color: white;
+        }
+            .project-card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 20px hotpink;
+}
+
+        footer {
+            background-color: #FFB2B2;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+    <link rel="icon" type="image/png" href="https://i.pinimg.com/1200x/fc/10/48/fc1048389fd7f03f0fa16e0a6e82c51f.jpg">
+    
+<body>
+
+<audio autoplay loop controls>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+    
+<header>
+    <h1>PORTOFOLIO MUTIARA AYESHA</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <h2>My Project</h2>
+    <p>
+        <i>
+        Halaman ini menampilkan kumpulan proyek yang pernah saya buat.
+        Klik judul proyek untuk melihat hasil karya saya.
+        </i>
+    </p>
+
+    <div class="project-grid">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+            <img src="https://i.pinimg.com/736x/12/2c/e8/122ce8bf3f5f130d046dc9ba40daefad.jpg" alt="Project 1">
+            <a href="https://youtu.be/G5YoZqP9-XY?si=SMyW_OUFlnrfBeIE" target="_blank">
+                Video Argumentasi
+            </a>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+            <img src="https://i.pinimg.com/736x/2b/5e/8a/2b5e8a541f0c4540a9a49c272e7e4902.jpg" alt="Project 2">
+            <a href="file:///home/chronos/u-bb9024a44fb0410fb5c8b2b3a99a403765e2e459/MyFiles/index%20tik/index.html" target="_blank">
+                Website Portofolio
+            </a>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+            <img src="https://i.pinimg.com/736x/6a/76/95/6a76959cac16293e1db7fb2fb820da88.jpg" alt="Project 3">
+            <a href="https://scratch.mit.edu/projects/1265210671/fullscreen/" target="_blank">
+                Game Edukasi
+            </a>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <div class="project-card">
+            <img src="https://i.pinimg.com/736x/b0/cc/5b/b0cc5b8b55242c6abd80fa90f9a4d2b9.jpg" alt="Project 4">
+            <a href="https://scratch.mit.edu/projects/1019835568" target="_blank">
+                Proyek Lainnya
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Mutiara Ayesha@2026</p>
+</footer>
+
+</body>
+</html>
